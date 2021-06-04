@@ -1,6 +1,6 @@
 # Exercici amb LeafletJS_EAC3
 
-Programeu una pàgina web senzilla usant la informació continguda en la següent URL:
+Programeu una pàgina web senzilla usant la informació continguda en la següent URL:<br>
       https://static-m.meteo.cat/content/opendata/ctermini_comarcal.xml
 
 De manera que es mostri el temps de les comarques de Catalunya, usant les facilitats que ens proporciona
