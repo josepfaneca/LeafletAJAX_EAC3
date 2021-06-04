@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Josep Faneca Trilla - IOC" />
+    <meta name="description" content="Exemple de visor de mapes amb geoserveis ICGC utilitzant Leaflet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/temps.css">
+    <!-- Leaflet -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://leafletjs.com/docs/images/favicon.ico" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <style>
+
+    </style>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://rawgithub.com/kartena/Proj4Leaflet/master/lib/proj4-compressed.js" type="text/javascript"></script>
+    <script src="https://rawgithub.com/kartena/Proj4Leaflet/master/src/proj4leaflet.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>EAC3. Exercici 3. Leaflet.</title>
+
+</head>
+
+<body>
+    <div class="container flex-shrink-0 my-5">
+        <h1>Predicció meteorològica a Catalunya</h1>
+        <br>
+        <h2>Prem el botó per pintar el mapa amb la predicció</h2>
+        <br>
+        <p>Fent clic damunt de la icona de la predicció apareixen les temperatures</p>
+        <br>
+        <div class="botons">
+            <button type="button" class="btn btn-primary" id="avuiM">Avui Matí</button>
+            <button type="button" class="btn btn-primary" id="avuiT">Avui Tarda</button>
+            <button type="button" class="btn btn-primary" id="demaM">Demà Matí</button>
+            <button type="button" class="btn btn-primary" id="demaT">Demà Tarda</button>
+            <button type="button" class="btn btn-warning" id="refrescar">Refrescar pàgina</button>
+        </div>
+        <br>
+    </div>
+
+    <div id="map" class="map"></div>
+
+    <br>
+
+
+
+
+    <script type="text/javascript" src="js/temps.js"></script>
+</body>
+
+</html>
